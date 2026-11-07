@@ -14,3 +14,16 @@ This repository contains the exploratory data analysis (EDA) and business insigh
 3. **Discount Threshold Effect:** Discounts exceeding 20% consistently destroy operating margins, peaking at a -180% return on sales for 80% discount orders.
 4. **Regional Disparities:** The West region leads in profitability ($108,418 profit, 14.94% margin), whereas the Central region lags behind (7.92% margin) due to unprofitable discounting.
 5. **Segment Efficiency:** Home Office achieves the highest profit efficiency with a 14.03% profit margin ($60,299 profit on $429,653 sales).
+
+
+## 📊 Task 2: Executive Sales Dashboard (Power BI)
+Interactive business intelligence dashboard built to monitor key retail performance metrics, product profitability, and temporal sales trends.
+
+* **`superstore_executive_dashboard.pbix`** : The complete Power BI report file featuring a fully configured Star Schema, custom DAX measures (`Total Sales`, `Total Profit`, `Profit Margin %`, `YoY Sales Growth %`), and dynamic slicers.
+* **`dashboard_preview.pdf`** : Executive PDF export of the final report canvas.
+
+### **Key Dashboard Features:**
+* **Top-Level KPI Scorecards:** Real-time tracking of Total Sales, Total Profit, and Profit Margin %.
+* **Temporal Trend Analysis:** Chronologically sorted monthly sales line chart highlighting business seasonality and peak performance periods across 2015–2018.
+* **Product Performance Treemap:** Category and Sub-Category hierarchy color-saturated by profitability to easily identify high-performing assets and loss-making margins.
+* **Interactive Filtering:** Dynamic `Segment` and `Year` slicers enabling multi-dimensional slicing for stakeholders.
